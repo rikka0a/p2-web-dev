@@ -1,0 +1,14 @@
+#header {
+    background-color: rgb(234, 229, 190);
+    height: 100px;
+}
+
+#content {
+    background-color: rgba(255, 127, 127, 0.279);
+    height: 1960px;
+}
+
+#footer {
+    background-color: rgb(255, 247, 0);
+    height: 100px;
+}
