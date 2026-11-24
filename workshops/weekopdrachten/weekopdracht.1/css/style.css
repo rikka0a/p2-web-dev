@@ -12,3 +12,9 @@
     background-color: rgb(255, 247, 0);
     height: 100px;
 }
+
+.product {
+    background-color: aquamarine;
+    font-weight: bold;
+    width: 300px;
+}
