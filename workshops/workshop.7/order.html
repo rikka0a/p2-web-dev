@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChooChooKooKoo</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div id="container">
+        
+        <div id="header">
+            <h1>ChooChooKooKoo</h1>
+            <ul id="menu">
+                <li><a href="index.html">Products</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div> 
+
+    <div id="content">
+    
+        <h2>Order: Aligator Chicken</h2>
+        <form class="forms">
+
+            <div class="field">
+                <label for="First Name">First Name</label>
+                <input type="text" id="First Name" name="First Name" placeholder="Example: Sanne" required>
+            </div>
+
+            <div class="field">
+                <label for="Last Name">Last Name</label>
+                <input type="text" id="Last Name" name="Last Name" required>
+            </div>
+
+            <div class="field">
+                <label for="email">E-mail</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+
+            <div class="field">
+                <label for="number">Number</label>
+                <input type="number" id="number" name="number" min="1" max="10" value="1" required>
+            </div>
+
+            <div class field>
+                <label for="age">Age For Animal</label>
+                <select id="age" name="age">
+                    <option value="just born">Just born</option>
+                    <option value="baby">Baby</option>
+                    <option value="teenager">Teeneager</option>
+                    <option value="adult">Adult</option>
+                    <option value="old and grey">Old and grey</option>
+                </select>
+            </div>
+
+        <div class="field checkmark">
+            <div class="field">
+                <input type="checkbox" id="TOS" name="TOS" required>
+                <label for="TOS">I agree with the TOS</label>
+            </div>
+        </div>
+
+            <input type="submit" value="Place order" class="button">
+
+        </form>
+        
+    </div> <!-- end of the content-->
+    <div id="footer">&copy; 2026 ChooChooKooKoo</div> <!-- end of the footer-->
+    
+</div> <!-- end of the container -->
+
+</body>
+</html>
