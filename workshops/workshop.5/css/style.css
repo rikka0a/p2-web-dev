@@ -1,11 +1,11 @@
-.blok {
+.block {
     background-color: #d9480f;
     color: #ffd2f7;
     width: 100px;
     height: 100px;
 }
 
-.rij {
+.row {
     display: flex;
     justify-content: center;
     align-items: center;
